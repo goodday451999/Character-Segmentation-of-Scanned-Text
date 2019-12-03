@@ -1,7 +1,7 @@
 import sys
-sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages') # in order to import cv2 under python3
+#sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages') # in order to import cv2 under python3
 import cv2
-sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages') # append back in order to import rospy
+#sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages') # append back in order to import rospy
 import numpy as np
 import matplotlib.pyplot as plt
 import os
@@ -272,7 +272,7 @@ def letter_seg(lines_img, x_lines, i):
 
 
 print("\n........Program Initiated.......\n")
-src_img= cv2.imread('./data/asg4.jpg', 1)
+src_img= cv2.imread('./input.jpg', 1)
 copy = src_img.copy()
 height = src_img.shape[0]
 width = src_img.shape[1]
