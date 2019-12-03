@@ -13,4 +13,4 @@ generate character level segmentation of its contents.
 * If required, modify the input image file name at Line 275 
 * Command to run the program in Linux/Ubuntu Terminal: python3 main.py
 --------------------------------------------------------------------------------------------------------------
-<img src="https://i.imgur.com/xHHcHxO.png" width="900" height="500"/>
+<img src="https://i.imgur.com/xHHcHxO.png" width="900" height="600"/>
